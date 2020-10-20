@@ -42,7 +42,7 @@ GROUP BY table_schema
 ORDER BY Espacio_Ocupado_MB DESC;
 
 -- ==================================================
--- CONSULTA A DETALLE DE CADA BASE DE DATOS
+-- CONSULTA A BUFFER DEL SERVIDOR
 -- ==================================================
 SELECT CEILING(Total_InnoDB_Bytes*1.6/POWER(1024,3)) AS RIBPS 
 FROM
